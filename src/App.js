@@ -43,6 +43,7 @@ function App() {
                 <i className="fa-solid fa-user"></i>
               </a>
             </div>
+                h1 
           </nav>
         </header>
       </section>
