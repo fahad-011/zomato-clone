@@ -22,31 +22,23 @@ function App() {
         rel="stylesheet"
       />
 
-      <section className="hero__section">
+      <section className='hero__section'>
         <header>
-          <nav className="navbar">
-            <a href="#">Get the App</a>
-            <div className="navbar__menu_container">
-              <a href="#" className="link">
-                Inventor Relations
-              </a>
-              <a href="#" className="link">
-                Add Restaurants
-              </a>
-              <a href="#" className="link">
-                Login
-              </a>
-              <a href="#" className="link">
-                Sign-Up
-              </a>
-              <a href="#" className="user__icon">
+          <nav className='navbar'>
+            <a href='#'>Get the App</a>
+            <div className='navbar__menu_container'>
+              <a href='#'className='link'>Investor Relations</a>
+              <a href='#'className='link'>Add restaurant</a>
+              <a href='#'className='link'>Log in</a>
+              <a href='#'className='link'>Sign Up</a>
+              <a href='#' className='user__icon'>
                 <i className="fa-solid fa-user"></i>
               </a>
             </div>
-                h1 
           </nav>
         </header>
       </section>
+    
     </div>
   );
 }
