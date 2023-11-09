@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Logo from './images/heroSectionLogo.png';
 
 function App() {
   return (
@@ -31,12 +32,32 @@ function App() {
               <a href='#'className='link'>Add restaurant</a>
               <a href='#'className='link'>Log in</a>
               <a href='#'className='link'>Sign Up</a>
-              <a href='#' className='user__icon'>
-                <i className="fa-solid fa-user"></i>
-              </a>
+              <a href='#' className='user__icon'><i className="fa-solid fa-user"></i></a>
             </div>
           </nav>
         </header>
+
+        <div class="hero__section_container">
+        <img
+          src={Logo}
+          alt="Zomato Logo"
+          class="hero__section_logo"
+        />
+        <h1 class="hero__section_title">Discover the best food & drinks in Hampi-Hospet</h1>
+        <div class="hero__section_input_container">
+          <input
+            type="text"
+            placeholder="Hampi-Hospet"
+            class="input_container_location"
+          />
+          <input
+            type="text"
+            placeholder="Search for a restaurant, cuisine or a dish"
+            class="input_container_search"
+          />
+        </div>
+      </div>
+
       </section>
     
     </div>
