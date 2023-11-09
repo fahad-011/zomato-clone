@@ -5,6 +5,7 @@ import item1 from './images/item1.png';
 import item2 from './images/item2.png';
 import item3 from './images/item3.png';
 import item4 from './images/item4.png';
+import mobileBanner from './images/mobileBanner.png';
 
 function App() {
   return (
@@ -99,7 +100,7 @@ function App() {
 
      <section class="container collections">
       <h1>Collection</h1>
-      <div>
+      <div className="sub__heading_container" >
         <span>Explore curated lists of top restaurants, cafes, pubs in Hospet-Hampi based on trends</span>
         <span>All collections in Hospet-Hampi</span>
       </div>
@@ -136,6 +137,15 @@ function App() {
           </div>
         </div>
 
+      </div>
+    </section>
+
+    <section class="container get__the_app">
+      <div class="semiContainer">
+        <div class="left">
+          <img src={mobileBanner} alt="mobile banner" />
+        </div>
+        <div class="right"></div>
       </div>
     </section>      
     
