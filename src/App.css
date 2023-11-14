@@ -177,6 +177,7 @@
   font-size: 12px;
 }
 
+
 .collections h1{
   font-weight: 600;
 }
@@ -189,7 +190,6 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
-
 .sub__heading_container span:nth-child(2){
   color: #ff7e8b;
   font-size: 13px;
@@ -208,6 +208,7 @@
 .collections_card_container .card{
   height: 300px;
   min-width: 240px;
+  /* background-color: aqua; */
   border-radius: 12px;
   background-size: cover;
   background-position: center;
@@ -233,10 +234,11 @@
 .overlay{
   width: 100%;
   height: 100%;
-  position: absolute; 
-  top: 0;
-  left: 0;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
   background: rgb(0, 0, 0);
+  border-radius: 10px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(72, 16, 16, 0.09) 52%, rgba(13, 37, 59, 0.05) 52%, rgba(0, 0, 0, 0) 100%);
 }
 
@@ -475,7 +477,6 @@
   border-radius: 50%;
   cursor: pointer;
   border: none;
-  margin: 0 2px;
 }
 
 .social__links_container button i {
@@ -496,6 +497,13 @@
   padding-top: 1.5rem;
   border-top: 1px solid gray;
   color: gray;
+}
+
+
+@media only screen and (max-width: 900px){
+  .navigation_container{
+      grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media only screen and (max-width: 900px){
