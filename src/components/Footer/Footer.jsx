@@ -1,3 +1,5 @@
+import React from "react";
+import { Link } from "react-router-dom";
 import Gstore from "../../assets/icons/playstore.png";
 import Appstore from "../../assets/icons/appstore.png";
 import Logo from "../../assets/images/zomatoLogo.avif";
@@ -8,7 +10,7 @@ import Linkedin from "../../assets/images/linkedin.png";
 import Youtube from "../../assets/images/youtube.png";
 import footerCss from "../Style/Footer.module.css";
 
-let Footer = () => {
+const Footer = () => {
   return (
     <div className={footerCss.footer}>
       <div className={footerCss.innerFooter}>
@@ -26,7 +28,7 @@ let Footer = () => {
                 <img
                   src="https://flagcdn.com/w40/in.png"
                   alt="Indian Flag"
-                  style={{ width: "17px" }}
+                  style={{ width: "19px" }}
                 />
                 India
               </button>
@@ -34,7 +36,7 @@ let Footer = () => {
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Globe_icon_2.svg/1200px-Globe_icon_2.svg.png"
                   alt="Select Language"
-                  style={{ width: "17px" }}
+                  style={{ width: "19px" }}
                 />
                 English
               </button>
@@ -44,65 +46,65 @@ let Footer = () => {
         <div className={footerCss.sec2}>
           <div className={[footerCss.box1, footerCss.box].join(" ")}>
             <div className={footerCss.boxTtl}>ABOUT ZOMATO</div>
-            <a href="" className={footerCss.boxOpt}>
+            <Link to="/who-we-are" className={footerCss.boxOpt}>
               Who We Are
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/blog" className={footerCss.boxOpt}>
               Blog
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/work-with-us" className={footerCss.boxOpt}>
               Work With Us
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/investor-relations" className={footerCss.boxOpt}>
               Investor Relations
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/report-fraud" className={footerCss.boxOpt}>
               Report Fraud
-            </a>
+            </Link>
           </div>
           <div className={[footerCss.box2, footerCss.box].join(" ")}>
             <div className={footerCss.boxTtl}>ZOMAVERSE</div>
-            <a href="" className={footerCss.boxOpt}>
+            <Link to="/zomato" className={footerCss.boxOpt}>
               Zomato
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/feeding-india" className={footerCss.boxOpt}>
               Feeding India
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/hyperpure" className={footerCss.boxOpt}>
               Hyperpure
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/zomaland" className={footerCss.boxOpt}>
               Zomaland
-            </a>
+            </Link>
           </div>
           <div className={[footerCss.box3, footerCss.box].join(" ")}>
             <div className={footerCss.boxTtl}>FOR RESTAURANTS</div>
-            <a href="" className={footerCss.boxOpt}>
+            <Link to="/partner-with-us" className={footerCss.boxOpt}>
               Partner With Us
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/apps-for-you" className={footerCss.boxOpt}>
               Apps For You
-            </a>
+            </Link>
 
             <div className={footerCss.boxTtl}>FOR ENTERPRISES</div>
-            <a href="" className={footerCss.boxOpt}>
+            <Link to="/zomato-for-work" className={footerCss.boxOpt}>
               Zomato For Work
-            </a>
+            </Link>
           </div>
           <div className={[footerCss.box4, footerCss.box].join(" ")}>
             <div className={footerCss.boxTtl}>LEARN MORE</div>
-            <a href="" className={footerCss.boxOpt}>
+            <Link to="/privacy" className={footerCss.boxOpt}>
               Privacy
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/security" className={footerCss.boxOpt}>
               Security
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/terms" className={footerCss.boxOpt}>
               Terms
-            </a>
-            <a href="" className={footerCss.boxOpt}>
+            </Link>
+            <Link to="/sitemap" className={footerCss.boxOpt}>
               Sitemap
-            </a>
+            </Link>
           </div>
           <div className={[footerCss.box5, footerCss.box].join(" ")}>
             <div className={footerCss.boxTtl}>SOCIAL LINKS</div>
@@ -143,28 +145,28 @@ let Footer = () => {
                 />
               </a>
             </div>
-            <a href="" className={footerCss.app}>
+            <Link to="/" className={footerCss.app}>
               <img
                 className={footerCss.appImg}
                 src={Gstore}
                 alt="google play store"
               />
-            </a>
-            <a href="" className={footerCss.app}>
+            </Link>
+            <Link to="/" className={footerCss.app}>
               <img
                 className={footerCss.appImg}
                 src={Appstore}
                 alt="apple app store"
               />
-            </a>
+            </Link>
           </div>
         </div>
         <hr className={footerCss.breakLine} />
         <div className={footerCss.sec3}>
           By continuing past this page, you agree to our Terms of Service,
-          Cookie Policy, Privacy Policy and Content Policies. All trademarks are
-          properties of their respective owners. 2008-2024 © Zomato™ Ltd. All
-          rights reserved.
+          Cookie Policy, Privacy Policy, and Content Policies. All trademarks
+          are properties of their respective owners. 2008-2024 © Zomato™ Ltd.
+          All rights reserved.
         </div>
       </div>
     </div>
