@@ -1,70 +1,167 @@
-# Getting Started with Create React App
+# Zomato Clone - Food Delivery Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to the Zomato Clone project! This React-based application aims to replicate the user interface and functionality of the popular food delivery platform, Zomato. Whether you're a developer looking to explore React or someone interested in creating a custom food delivery app, this project provides a comprehensive foundation.
 
-In the project directory, you can run:
+![App Screenshot](/src/assets/Screenshots/Zomato Clone.gif)
 
-### `npm start`
+## Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Home Page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Dynamic landing page showcasing popular restaurants and trending dishes.
 
-### `npm test`
+### Restaurant Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Detailed information about a selected restaurant, including menu items, reviews, and ratings.
 
-### `npm run build`
+### Order Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Seamless order process, allowing users to add items to their cart and complete the order.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Get the App
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Download the Zomato Clone app now and enjoy a seamless food ordering experience! 📱
 
-### `npm run eject`
+## Libraries Used:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| Library Name   | Description                                           |
+| -------------- | ----------------------------------------------------- |
+| React Js       | Frontend Framework                                    |
+| React Slick    | For carousel's in the project                         |
+| slick-carousel | For carousel's in the project (used with React Slick) |
+| React Router   | Routing library                                       |
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Tools Used:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Tool Name | Description          |
+| --------- | -------------------- |
+| npm       | Package Manager tool |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Installation and Usage Guide
 
-## Learn More
+# Fork the Repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Click the "Fork" button at the top right corner of the page. This will create a copy of the repository under your GitHub account.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Installation
 
-### Code Splitting
+To run the Project locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the Repository
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/your-username/zomato-clone.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Navigate to the project directory
 
-### Making a Progressive Web App
+```bash
+ cd zomato-clone
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. Install the dependencies using npm
 
-### Advanced Configuration
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Usage
 
-### Deployment
+To start the development server and view the application, run the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm start
+```
 
-### `npm run build` fails to minify
+This will start the application on your computer's local development server, accessible at `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Zomato Clone - Food Delivery Application
+
+## Overview
+
+Welcome to the Zomato Clone project! This React-based application aims to replicate the user interface and functionality of the popular food delivery platform, Zomato. Whether you're a developer looking to explore React or someone interested in creating a custom food delivery app, this project provides a comprehensive foundation.
+
+![App Screenshot](/src/assets/Screenshots/Zomato Clone.gif)
+
+## Key Features
+
+### Home Page
+
+- Dynamic landing page showcasing popular restaurants and trending dishes.
+
+### Restaurant Page
+
+- Detailed information about a selected restaurant, including menu items, reviews, and ratings.
+
+### Order Page
+
+- Seamless order process, allowing users to add items to their cart and complete the order.
+
+## Get the App
+
+Download the Zomato Clone app now and enjoy a seamless food ordering experience! 📱
+
+## Libraries Used:
+
+| Library Name   | Description                                           |
+| -------------- | ----------------------------------------------------- |
+| React Js       | Frontend Framework                                    |
+| React Slick    | For carousel's in the project                         |
+| slick-carousel | For carousel's in the project (used with React Slick) |
+| React Router   | Routing library                                       |
+
+## Tools Used:
+
+| Tool Name | Description          |
+| --------- | -------------------- |
+| npm       | Package Manager tool |
+
+# Installation and Usage Guide
+
+# Fork the Repository
+
+Click the "Fork" button at the top right corner of the page. This will create a copy of the repository under your GitHub account.
+
+## Installation
+
+To run the Project locally, follow these steps:
+
+1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/zomato-clone.git
+```
+
+2. Navigate to the project directory
+
+```bash
+ cd zomato-clone
+```
+
+3. Install the dependencies using npm
+
+```bash
+npm install
+```
+
+## Usage
+
+To start the development server and view the application, run the following command:
+
+```bash
+npm start
+```
+
+This will start the application on your computer's local development server, accessible at `http://localhost:3000`
+
+## ScreenShots
+
+# Home Page:
+
+![App Screenshot](/src/assets/Screenshots/Home.png)
+
+# Add Restaurant Page:
+
+![App Screenshot](/src/assets/Screenshots/AddRestaurant.png)
