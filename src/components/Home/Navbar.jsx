@@ -24,9 +24,6 @@ const Navbar = () => {
           </Link>
           <Link>Log in</Link>
           <Link>Sign Up</Link>
-          <Link to="/user" className="user__icon">
-            <i className="fa-solid fa-user"></i>
-          </Link>
         </div>
       </nav>
     </>
