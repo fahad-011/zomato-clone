@@ -31,7 +31,7 @@ let AddRestaurantMobileNavbar = ({ toogleMenu, setToggleMenu }) => {
           onClick={() => setToggleMenu((val) => !val)}
         />
         <Link to="/" className={css.title}>
-          Tomato
+          Zomato
         </Link>
       </div>
       <div className={css.navbar} onClick={() => setState((val) => !val)}>
