@@ -1,6 +1,6 @@
 import GetTheApp from "./components/Home/GetTheApp";
 import { Routes, Route } from "react-router-dom";
-import ErrorPage from "./pages/ErrorPage";
+// import ErrorPage from "./pages/ErrorPage";
 import AddRestaurant from "./pages/AddRestaurant";
 
 import Home from "./pages/HomePage";
@@ -17,7 +17,7 @@ function App() {
 
       {/* <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} /> */}
-      <Route path="*" element={<ErrorPage />} />
+      {/* <Route path="*" element={<ErrorPage />} /> */}
     </Routes>
   );
 }
