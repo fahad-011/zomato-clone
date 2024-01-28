@@ -21,13 +21,8 @@
 .logoBox {
     width: 150px;
     height: 30px;
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 600;
-}
-
-.logo {
-    width: 100%;
-    height: 100%;
 }
 
 .filters {
@@ -42,7 +37,6 @@
     border-radius: 5px;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
 }
 
 .icon {
@@ -72,13 +66,16 @@
 .boxTtl {
     margin: 10px 0px;
     letter-spacing: 2px;
+    font-size: 1rem;
+    /* Adjusted font size for mobile devices */
 }
 
 .boxOpt {
     margin: 5px 0px;
     text-decoration: none;
     color: rgb(105, 105, 105);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    /* Reduced font size for mobile devices */
 }
 
 .socialImgAnchore {
@@ -86,7 +83,7 @@
 }
 
 .socialImg {
-    width: 20px;
+    width: 18px;
     height: 20px;
     margin: 5px;
     cursor: pointer;
@@ -115,11 +112,12 @@
 .sec3 {
     color: rgb(79, 79, 79);
     text-align: justify;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
-@media all and (max-width: 800px) {
+/* Existing styles... */
 
+@media all and (max-width: 800px) {
     .sec1,
     .sec2 {
         width: 100%;
@@ -130,24 +128,36 @@
     .box {
         width: 40%;
     }
+
+    .footer {
+        padding: 2rem 1rem; 
+    }
+
+    .boxTtl {
+        font-size: 0.8rem; 
+    }
+
+    .boxOpt {
+        font-size: 0.7rem; 
+    }
+
+    .sec3 {
+        font-size: 0.7rem; 
+    }
 }
 
 @media all and (max-width: 550px) {
-
     .footer {
         padding: 1rem 2rem;
     }
-
 }
-
 @media all and (max-width: 350px) {
-
     .footer {
-        padding: 1rem 1rem;
+        padding: 2rem 1rem;
     }
-
 
     .filters {
         margin: 2rem 0 0 0;
     }
+    
 }
