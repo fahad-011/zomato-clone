@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "../Style/Home.css";
 
 // Reusable Card component
 const Card = ({ title, places, image }) => (
