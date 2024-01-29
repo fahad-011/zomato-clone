@@ -13,9 +13,7 @@ const GetTheApp = () => {
     setDownloadOption(option);
   };
 
-  const handleShareLink = () => {
-    // Implement functionality to share the app link based on the selected option
-  };
+  const handleShareLink = () => {};
 
   return (
     <>
