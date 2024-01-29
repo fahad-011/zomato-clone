@@ -1,10 +1,8 @@
 # Zomato Clone - Food Delivery Application
 
-## Overview
+![](/src/assets/Screenshots/demo.gif)
 
 Welcome to the Zomato Clone project! This React-based application aims to replicate the user interface and functionality of the popular food delivery platform, Zomato. Whether you're a developer looking to explore React or someone interested in creating a custom food delivery app, this project provides a comprehensive foundation.
-
-![App Screenshot](/src/assets/Screenshots/ZomatoClone.gif)
 
 ## Key Features
 
